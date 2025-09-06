@@ -17,7 +17,7 @@ function App() {
         <div className="min-h-screen bg-light-bg">
             <Header />
             <main>
-                <Hero onWatchVideo={() => setIsVideoModalOpen(true)} />
+                <Hero />
                 <FeaturesSection />
                 <AppSection />
                 <RobotSection />

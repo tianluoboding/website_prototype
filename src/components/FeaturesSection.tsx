@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { 
   Route, 
@@ -78,7 +77,12 @@ const FeaturesSection = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <FeatureCard {...feature} />
+              <FeatureCard 
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+                learnMoreContent={feature.learnMore}
+              />
             </motion.div>
           ))}
         </div>

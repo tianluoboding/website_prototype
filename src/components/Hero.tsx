@@ -1,11 +1,7 @@
 import { motion } from 'framer-motion'
-import { Play, ArrowDown } from 'lucide-react'
+import { ArrowDown } from 'lucide-react'
 
-interface HeroProps {
-    onWatchVideo: () => void
-}
-
-const Hero = ({ onWatchVideo }: HeroProps) => {
+const Hero = () => {
     const scrollToApp = () => {
         const element = document.getElementById('app')
         if (element) {

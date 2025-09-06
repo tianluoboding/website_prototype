@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowRight, X } from 'lucide-react'
 
 interface FeatureCardProps {
-    icon: React.ReactNode
+    icon: JSX.Element
     title: string
     description: string
     learnMoreContent: string
