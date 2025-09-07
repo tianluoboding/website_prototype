@@ -35,7 +35,7 @@ const Header = () => {
                             <img
                                 src="/website_prototype/logo.jpg"
                                 alt="WattUp Logo"
-                                className="h-8 w-8 rounded-lg object-contain"
+                                className="h-12 w-12 rounded-lg object-contain"
                                 onError={(e) => {
                                     e.currentTarget.style.display = 'none'
                                     e.currentTarget.nextElementSibling?.classList.remove('hidden')

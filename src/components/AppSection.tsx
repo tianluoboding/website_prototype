@@ -63,14 +63,14 @@ const AppSection = () => {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="relative mx-auto w-80 h-[600px] bg-gray-800 rounded-[3rem] p-2 shadow-2xl">
+            <div className="relative mx-auto w-80 h-[700px] bg-gray-800 rounded-[3rem] p-2 shadow-2xl">
               <div className="w-full h-full bg-black rounded-[2.5rem] overflow-hidden relative">
                 {/* Screen content */}
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 to-navy">
                   <img
                     src={appImages[currentImage]}
                     alt={`App screenshot ${currentImage + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     onError={(e) => {
                       // Fallback to gradient if image doesn't exist
                       e.currentTarget.style.display = 'none'
