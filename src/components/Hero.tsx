@@ -49,11 +49,11 @@ const Hero = () => {
                             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-200">
                                 <video
                                     className="w-full h-80 object-cover"
-                                    poster="/video/robot-demo-poster.jpg"
+                                    poster="/website_prototype/video/robot-demo-poster.jpg"
                                     controls
                                     preload="metadata"
                                 >
-                                    <source src="/video/robot-demo.mp4" type="video/mp4" />
+                                    <source src="/website_prototype/video/robot-demo.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                                 <div className="p-6 bg-white">

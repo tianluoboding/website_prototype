@@ -9,9 +9,9 @@ const AppSection = () => {
   const [qrCodeDataUrl, setQrCodeDataUrl] = useState('')
 
   const appImages = [
-    '/screens/app-1.png',
-    '/screens/app-2.png',
-    '/screens/app-3.png'
+    '/website_prototype/screens/app-1.png',
+    '/website_prototype/screens/app-2.png',
+    '/website_prototype/screens/app-3.png'
   ]
 
   const appUrl = 'https://tianluoboding.github.io/wattupapp-prototype/'

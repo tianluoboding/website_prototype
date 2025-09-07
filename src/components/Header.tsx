@@ -33,7 +33,7 @@ const Header = () => {
                             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
                         >
                             <img
-                                src="/logo.jpg"
+                                src="/website_prototype/logo.jpg"
                                 alt="WattUp Logo"
                                 className="h-8 w-8 rounded-lg object-contain"
                                 onError={(e) => {

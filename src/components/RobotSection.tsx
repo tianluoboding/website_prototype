@@ -72,14 +72,14 @@ const RobotSection = () => {
                 <video
                   className="w-full h-auto rounded-2xl shadow-2xl"
                   controls
-                  poster="/robot-hero.jpg"
+                  poster="/website_prototype/robot-hero.jpg"
                   onError={(e) => {
                     // Fallback to gradient if video doesn't exist
                     e.currentTarget.style.display = 'none'
                     e.currentTarget.nextElementSibling?.classList.remove('hidden')
                   }}
                 >
-                  <source src="/video/robot-demo.mp4" type="video/mp4" />
+                  <source src="/website_prototype/video/robot-demo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="hidden w-full h-96 bg-gradient-to-br from-emerald-500/20 to-emerald-100 rounded-2xl flex items-center justify-center">
