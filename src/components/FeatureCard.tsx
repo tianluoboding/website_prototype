@@ -19,15 +19,15 @@ const FeatureCard = ({ icon, title, description, learnMoreContent }: FeatureCard
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.2 }}
             >
-                <div className="text-emerald-500 mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="text-emerald-500 mb-4 group-hover:scale-110 transition-transform duration-300">
                     {icon}
                 </div>
 
-                <h3 className="text-3xl font-semibold text-light-text mb-6">
+                <h3 className="text-2xl font-semibold text-light-text mb-4">
                     {title}
                 </h3>
 
-                <p className="text-light-text-secondary mb-8 leading-relaxed text-xl">
+                <p className="text-light-text-secondary mb-6 leading-relaxed text-lg">
                     {description}
                 </p>
 

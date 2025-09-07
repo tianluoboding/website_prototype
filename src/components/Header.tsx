@@ -60,7 +60,7 @@ const Header = () => {
                             ))}
                             <button
                                 onClick={() => scrollToSection('app')}
-                                className="btn-primary"
+                                className="btn-nav"
                             >
                                 Get the App
                             </button>

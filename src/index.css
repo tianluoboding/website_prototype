@@ -23,11 +23,15 @@
   @apply bg-transparent border-2 border-emerald-500 text-emerald-500 hover:bg-emerald-500 hover:text-white font-semibold px-12 py-6 rounded-2xl transition-colors duration-200 text-xl;
 }
 
+.btn-nav {
+  @apply bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-2 rounded-lg transition-colors duration-200 text-sm;
+}
+
 .section-padding {
   @apply px-8 sm:px-12 lg:px-16 py-24 lg:py-40;
 }
 
 .card-light {
-  @apply bg-white/90 backdrop-blur-sm border border-gray-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10;
+  @apply bg-white/90 backdrop-blur-sm border border-gray-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8;
 }
 }
